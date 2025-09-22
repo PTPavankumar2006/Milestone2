@@ -1,0 +1,101 @@
+ID,State,City,Locality,Property_Type,BHK,Size_in_SqFt,Price_in_Lakhs,fl,Price_per_SqFt,Year_Built,Furnished_Status,D,Floor No,Total_Floors,Age_of_Property,Nearby_Schools,Nearby_Hospitals,Public_Transport_Accessibility,Parking Space,Security,Amenities,Facing,Owner_Type,Availability_Status
+1,Florida,New Patriciahaven,Lowe Fall,Independent House,3,4613,372.16,Commercial,7590.59,1991,Unfurnished,Ready to Move,3,7,28,Yes,No,Medium,No,No,"Gym, Security",South,Agent,Sold
+2,South Carolina,New Thomas,Alexander Field,Apartment,4,3395,51.71,Residential,11416.72,2009,Semi-Furnished,Ready to Move,9,17,17,Yes,No,Low,Yes,Yes,"Gym, Security",North,Owner,Rented
+3,Florida,Petersland,Navarro Creek,Villa,4,3843,63.4,Commercial,9371.61,2022,Unfurnished,Ready to Move,18,14,2,No,No,High,No,Yes,"Gym, Pool, Garden",West,Agent,Sold
+4,South Carolina,East Veronicachester,Hanson Harbors,Plot,1,2416,471.28,Commercial,10353.48,2018,Semi-Furnished,Ready to Move,1,16,11,No,No,Medium,Yes,Yes,None,North,Builder,Available
+5,Massachusetts,New Travis,Gray Expressway,Plot,5,4403,373.83,Residential,13212.41,1980,Semi-Furnished,Ready to Move,8,24,35,Yes,Yes,High,Yes,No,"Garden, Parking",North,Owner,Sold
+6,New Mexico,New Gabrielafurt,Miller Well,Independent House,2,1333,454.74,Residential,10329.18,2013,Semi-Furnished,Ready to Move,12,15,2,No,No,Low,Yes,Yes,"Gym, Security",South,Builder,Rented
+7,Michigan,West Richard,Blake Prairie,Villa,2,2198,331.28,Commercial,10333.36,1987,Semi-Furnished,Under Construction,8,11,6,Yes,No,Medium,No,No,None,South,Builder,Rented
+8,Michigan,Greeneland,Hughes Lane,Villa,4,4597,307.87,Commercial,10198.68,2009,Unfurnished,Ready to Move,20,17,4,No,No,Low,Yes,Yes,"Gym, Security",East,Agent,Sold
+9,Delaware,Walkertown,Fisher Falls,Villa,1,3378,410.8,Commercial,6588.29,1986,Furnished,Under Construction,13,10,6,Yes,Yes,Medium,Yes,Yes,"Gym, Security",East,Builder,Available
+10,Oklahoma,Williamberg,Eric Walks,Independent House,3,4187,417.59,Commercial,9683.74,2019,Furnished,Under Construction,3,14,2,No,Yes,High,Yes,Yes,None,South,Builder,Rented
+11,South Dakota,Lorimouth,Kayla Track,Independent House,1,3784,190.36,Residential,11813.4,2018,Unfurnished,Ready to Move,15,6,16,Yes,No,High,No,Yes,"Gym, Security",West,Owner,Sold
+12,Missouri,North Dianaland,Kim Hollow,Independent House,4,744,462.6,Residential,6280.26,1990,Unfurnished,Under Construction,12,27,12,Yes,Yes,Low,Yes,No,None,West,Agent,Sold
+13,Maine,Lewisshire,Mayer Ridges,Apartment,3,1577,477.67,Commercial,12858.42,1985,Unfurnished,Ready to Move,3,1,24,Yes,Yes,Medium,Yes,No,"Garden, Parking",North,Builder,Rented
+14,West Virginia,East Edward,House Radial,Independent House,5,1855,245.4,Commercial,3258.35,2012,Unfurnished,Ready to Move,7,10,15,Yes,Yes,Medium,Yes,Yes,"Garden, Parking",North,Owner,Rented
+15,Texas,Lindastad,Brittney Landing,Plot,5,1610,366.84,Residential,5981.56,1994,Semi-Furnished,Under Construction,18,1,36,No,Yes,High,No,Yes,None,West,Builder,Available
+16,Oklahoma,New Jonathanstad,Murray Well,Villa,3,814,62.74,Commercial,5189.57,1992,Unfurnished,Under Construction,12,25,23,Yes,No,Low,No,Yes,"Garden, Parking",West,Agent,Rented
+17,Iowa,North Jeremyland,Tiffany Pine,Independent House,1,3571,295.05,Residential,7930.77,2005,Semi-Furnished,Ready to Move,8,1,33,Yes,Yes,Medium,Yes,No,"Garden, Parking",South,Owner,Available
+18,Mississippi,Hillland,Ryan Circles,Independent House,4,1586,183.11,Commercial,11022.25,2003,Semi-Furnished,Ready to Move,20,29,7,Yes,No,Medium,Yes,No,"Gym, Security",East,Agent,Available
+19,Mississippi,Evansburgh,Courtney Drive,Villa,3,1476,320.29,Residential,12196.15,1985,Unfurnished,Under Construction,23,14,15,Yes,No,High,No,Yes,"Gym, Security",West,Agent,Sold
+20,Connecticut,South Stephen,Chambers Views,Plot,4,3957,99.35,Commercial,11706.61,1981,Furnished,Under Construction,10,23,27,Yes,No,High,Yes,No,None,East,Builder,Sold
+21,Kansas,East Jamieton,Ortega Hollow,Apartment,1,3867,420.44,Commercial,14266.77,1986,Unfurnished,Ready to Move,15,5,1,No,No,Low,Yes,No,None,West,Builder,Available
+22,Connecticut,New Sierraview,Cox Corner,Plot,1,602,419.4,Residential,8776.23,2000,Semi-Furnished,Ready to Move,16,11,22,No,No,Medium,Yes,Yes,"Gym, Security",East,Agent,Sold
+23,Kansas,Feliciafort,Aguilar Oval,Villa,5,4282,240.53,Commercial,12149.44,2013,Semi-Furnished,Ready to Move,18,3,31,Yes,Yes,High,Yes,Yes,"Garden, Parking",West,Agent,Available
+24,Oregon,Andrewport,Christopher Estate,Apartment,5,992,175.72,Residential,11939.95,1994,Furnished,Ready to Move,10,27,9,Yes,No,High,Yes,Yes,"Gym, Pool, Garden",West,Agent,Available
+25,Vermont,Cummingsmouth,Benjamin Cliff,Independent House,4,3735,247.53,Residential,8529.41,2011,Unfurnished,Ready to Move,21,27,1,No,No,Low,No,Yes,"Garden, Parking",East,Agent,Sold
+26,Maryland,North Michelle,Victoria Common,Villa,5,3224,411.85,Residential,4430.65,2001,Semi-Furnished,Ready to Move,10,3,15,Yes,Yes,High,No,Yes,"Gym, Pool, Garden",North,Agent,Rented
+27,Oklahoma,South Richard,Cox Street,Independent House,5,938,132.83,Residential,9108.03,1999,Unfurnished,Ready to Move,11,5,15,No,Yes,High,No,No,None,South,Owner,Rented
+28,Alaska,Port Cassieberg,Kristin Bypass,Plot,1,1439,352.75,Commercial,3120.62,1997,Semi-Furnished,Under Construction,6,21,0,No,Yes,High,No,Yes,"Gym, Pool, Garden",South,Agent,Available
+29,Missouri,Lake Angelafort,Rebecca Shores,Villa,5,934,57.66,Commercial,9047.5,2017,Semi-Furnished,Ready to Move,18,25,5,No,No,High,Yes,Yes,"Gym, Security",West,Agent,Available
+30,Rhode Island,Davidhaven,Wendy Orchard,Plot,3,3288,157.57,Commercial,6761.24,1986,Furnished,Ready to Move,2,28,10,Yes,No,High,Yes,Yes,None,North,Owner,Available
+31,Pennsylvania,South Mark,Gary Hills,Plot,2,4271,121.33,Commercial,12665.89,1994,Furnished,Ready to Move,22,3,24,No,Yes,High,Yes,Yes,"Garden, Parking",North,Agent,Rented
+32,California,Hamiltonshire,Lucas Vista,Independent House,2,731,134.6,Commercial,5605.57,1993,Unfurnished,Under Construction,20,16,20,Yes,Yes,Medium,No,No,"Garden, Parking",West,Builder,Rented
+33,Alaska,Seanhaven,Samuel Village,Villa,3,2360,435.07,Residential,6640.19,1994,Unfurnished,Ready to Move,15,1,24,No,Yes,High,No,Yes,"Gym, Security",South,Agent,Available
+34,Arizona,Jacktown,Jeffrey Turnpike,Independent House,5,3989,425.91,Commercial,3405.33,2009,Unfurnished,Under Construction,9,4,10,Yes,Yes,High,Yes,No,"Gym, Security",South,Owner,Available
+35,Illinois,Ramirezmouth,Hernandez Shores,Plot,5,4790,229.23,Residential,14245.44,2017,Furnished,Ready to Move,9,8,7,Yes,Yes,High,Yes,Yes,"Gym, Pool, Garden",North,Builder,Available
+36,Iowa,East Marcus,Hawkins Plains,Plot,2,3215,401.44,Commercial,4402.84,1999,Unfurnished,Under Construction,15,8,1,No,Yes,Low,Yes,No,"Garden, Parking",North,Builder,Available
+37,Florida,Rodriguezshire,Andrew Lake,Apartment,3,1687,229.95,Residential,3006.01,1991,Unfurnished,Under Construction,9,8,39,No,Yes,High,No,No,"Gym, Security",South,Owner,Available
+38,North Dakota,Christinaville,William Oval,Apartment,5,1875,472.67,Residential,4778.94,1989,Furnished,Under Construction,21,24,28,Yes,No,Medium,Yes,Yes,"Gym, Pool, Garden",North,Agent,Sold
+39,Louisiana,Kimberlyhaven,Cantu Isle,Villa,3,3812,186.2,Residential,9368.65,1996,Semi-Furnished,Under Construction,9,11,6,No,Yes,Medium,No,No,"Garden, Parking",North,Builder,Available
+40,Ohio,Tinastad,Powers Greens,Independent House,5,3388,176.82,Commercial,2524.63,1989,Furnished,Under Construction,16,27,14,No,No,Low,No,Yes,"Gym, Pool, Garden",East,Agent,Rented
+41,Ohio,Whiteborough,Kyle Point,Plot,1,4737,171.38,Residential,9232.81,1981,Semi-Furnished,Under Construction,17,11,36,Yes,Yes,High,No,Yes,"Garden, Parking",West,Agent,Rented
+42,New Jersey,North Valerieland,Sara Islands,Villa,5,1909,115.93,Commercial,14412.23,2017,Semi-Furnished,Ready to Move,15,14,6,Yes,No,Medium,No,No,"Garden, Parking",South,Owner,Rented
+43,New York,Samanthatown,Jennifer Shores,Apartment,5,4821,473.08,Commercial,9750.59,1986,Semi-Furnished,Ready to Move,3,17,25,No,No,Medium,Yes,No,"Gym, Pool, Garden",East,Owner,Rented
+44,Idaho,North William,Jones Bridge,Plot,4,2884,275.39,Residential,7855.66,1988,Furnished,Ready to Move,17,12,0,Yes,Yes,Medium,No,No,"Gym, Security",South,Owner,Sold
+45,Minnesota,Vasquezville,Roger Estates,Villa,2,4686,275.14,Residential,7508.72,2000,Semi-Furnished,Under Construction,22,22,3,Yes,No,Medium,Yes,No,"Garden, Parking",North,Owner,Available
+46,Iowa,Lake Jenna,Justin Green,Villa,1,993,400.95,Residential,6913.2,1990,Furnished,Ready to Move,3,27,37,Yes,Yes,Low,Yes,Yes,"Gym, Pool, Garden",East,Builder,Sold
+47,New York,Lake Adamland,Curtis Manors,Villa,3,3268,478.43,Residential,4504.74,2005,Furnished,Under Construction,3,27,5,No,No,Medium,No,No,"Gym, Pool, Garden",East,Agent,Sold
+48,New York,New Dustin,Nelson Flat,Plot,5,675,409.13,Commercial,4213.21,2008,Unfurnished,Under Construction,18,3,18,Yes,No,Medium,No,No,None,West,Agent,Rented
+49,New Hampshire,Hudsonfurt,Murray Glen,Apartment,2,2366,438.34,Commercial,9432.52,2011,Unfurnished,Under Construction,24,26,30,Yes,Yes,Low,Yes,Yes,"Gym, Security",North,Agent,Available
+50,Kentucky,Lake Jennabury,Erica Highway,Apartment,2,2788,297.12,Residential,6342.57,2007,Semi-Furnished,Under Construction,19,24,8,Yes,No,Low,Yes,No,"Garden, Parking",West,Builder,Sold
+51,New Hampshire,Ortizhaven,Ronald Flats,Villa,5,2464,398.32,Residential,10904.49,2012,Semi-Furnished,Under Construction,24,21,6,No,Yes,Medium,Yes,No,None,South,Owner,Available
+52,South Dakota,South Alexandra,Ramirez Mall,Plot,5,2732,162.83,Residential,4657.35,2002,Semi-Furnished,Under Construction,13,4,32,Yes,No,High,No,Yes,"Garden, Parking",South,Owner,Sold
+53,West Virginia,East Albert,Lori Knolls,Villa,5,3132,477.39,Commercial,4438.98,1988,Semi-Furnished,Under Construction,18,14,36,Yes,Yes,Low,No,No,"Garden, Parking",East,Owner,Sold
+54,South Dakota,Careyside,Megan Meadow,Villa,2,3047,113.13,Residential,8868.37,2011,Semi-Furnished,Ready to Move,21,9,16,Yes,No,Medium,No,Yes,"Gym, Pool, Garden",East,Owner,Sold
+55,Washington,West Tamara,Parks Valley,Independent House,4,1481,100.04,Residential,7908.9,1983,Semi-Furnished,Ready to Move,24,1,8,Yes,Yes,High,Yes,No,"Gym, Security",East,Builder,Sold
+56,Minnesota,Cartertown,Amy Summit,Plot,4,2400,139.69,Residential,7207.36,1991,Unfurnished,Under Construction,8,15,23,Yes,Yes,Medium,Yes,No,"Gym, Security",South,Agent,Rented
+57,Alabama,East Patrick,Elizabeth Island,Villa,2,4193,344.61,Commercial,3522.39,1994,Furnished,Ready to Move,10,3,14,No,Yes,Medium,Yes,Yes,None,North,Owner,Sold
+58,North Dakota,North Davidport,Knight Gardens,Independent House,1,2344,389.49,Commercial,2671.02,1980,Furnished,Under Construction,20,15,36,No,No,Low,Yes,No,None,North,Owner,Sold
+59,Arizona,Erikaview,Chavez Stravenue,Apartment,4,982,238.13,Commercial,11286.0,1982,Unfurnished,Ready to Move,12,9,36,No,No,Medium,No,Yes,"Gym, Security",South,Owner,Rented
+60,Maryland,Moorehaven,Robert Mountain,Plot,1,2063,316.5,Commercial,14670.28,1990,Furnished,Ready to Move,15,16,33,No,No,Medium,Yes,Yes,"Gym, Security",East,Builder,Sold
+61,Washington,New Sandrashire,Jones Forge,Villa,5,4626,451.94,Residential,3596.03,1991,Unfurnished,Under Construction,15,4,18,No,Yes,Low,Yes,No,None,East,Owner,Sold
+62,Ohio,Emilymouth,Pierce Club,Villa,4,2064,159.1,Residential,11384.72,1990,Furnished,Under Construction,24,8,16,Yes,No,Medium,No,No,"Garden, Parking",South,Agent,Rented
+63,West Virginia,Travisberg,Erin Village,Plot,2,2860,217.31,Commercial,4746.16,2018,Semi-Furnished,Under Construction,12,20,6,No,No,High,Yes,Yes,"Garden, Parking",North,Owner,Rented
+64,Minnesota,North Elizabeth,Gibbs Rapid,Plot,4,1883,123.94,Residential,14598.02,2004,Unfurnished,Ready to Move,20,10,11,Yes,Yes,High,No,Yes,None,South,Owner,Rented
+65,Ohio,West Jessica,Brian Radial,Villa,3,4210,149.54,Residential,13594.53,2022,Semi-Furnished,Ready to Move,16,9,25,No,No,Low,No,Yes,None,West,Agent,Rented
+66,Mississippi,Port Jessica,Underwood Villages,Independent House,2,3887,463.95,Commercial,11180.47,1984,Furnished,Under Construction,7,29,21,Yes,No,Medium,No,No,"Gym, Pool, Garden",West,Builder,Available
+67,Montana,South John,Teresa Rapid,Plot,4,2964,46.99,Commercial,12999.63,1984,Furnished,Under Construction,23,26,22,Yes,No,Low,No,Yes,None,East,Owner,Sold
+68,Utah,Christophertown,Parker Ways,Villa,1,1514,489.13,Residential,5821.6,1986,Unfurnished,Under Construction,19,2,38,No,No,Low,No,No,"Gym, Security",North,Agent,Available
+69,Arizona,Ronaldstad,Kimberly Gardens,Independent House,1,2119,471.15,Residential,2488.67,2021,Furnished,Ready to Move,4,3,28,Yes,Yes,Medium,No,Yes,"Gym, Pool, Garden",East,Agent,Rented
+70,Nebraska,Johnsonport,Madison Ridges,Independent House,5,1153,278.7,Residential,4666.5,2004,Furnished,Under Construction,18,25,27,Yes,Yes,Low,Yes,No,None,East,Builder,Available
+71,Nebraska,East Donhaven,Clark Crest,Apartment,4,533,394.47,Commercial,3115.15,2019,Furnished,Ready to Move,12,8,37,Yes,Yes,Medium,Yes,Yes,"Gym, Pool, Garden",South,Agent,Available
+72,Utah,Reesefort,Richard Manor,Independent House,4,1166,213.34,Residential,4454.96,2018,Furnished,Under Construction,9,12,18,No,No,Medium,Yes,Yes,"Gym, Pool, Garden",East,Owner,Rented
+73,Louisiana,New Jeanborough,Roberts Wells,Apartment,2,4447,135.56,Commercial,12266.22,1992,Unfurnished,Under Construction,8,14,17,No,Yes,High,No,Yes,None,South,Agent,Sold
+74,Massachusetts,Adamsberg,Martinez Harbor,Independent House,3,606,270.71,Residential,3622.88,2000,Semi-Furnished,Ready to Move,17,8,36,No,No,Medium,Yes,Yes,"Garden, Parking",East,Builder,Sold
+75,Rhode Island,Port Mauricemouth,Holloway Groves,Apartment,1,4261,344.3,Residential,7333.33,2001,Unfurnished,Under Construction,23,6,7,Yes,No,Medium,No,No,"Gym, Pool, Garden",East,Agent,Sold
+76,Montana,Gonzalezmouth,Candace Inlet,Apartment,2,3222,208.19,Residential,4747.18,2004,Unfurnished,Ready to Move,12,14,29,Yes,No,High,No,Yes,"Garden, Parking",West,Agent,Available
+77,Maryland,East Elizabeth,Spencer Key,Plot,5,2087,404.98,Residential,10419.02,2002,Semi-Furnished,Under Construction,4,11,9,Yes,Yes,Low,No,Yes,"Gym, Pool, Garden",North,Builder,Rented
+78,Nebraska,East Craigport,Adam Prairie,Apartment,3,2117,58.3,Residential,11456.33,2008,Furnished,Ready to Move,15,4,25,No,No,High,No,Yes,"Gym, Pool, Garden",North,Owner,Sold
+79,New Mexico,East Selena,Osborne Lodge,Villa,4,1681,220.59,Residential,11695.83,2021,Unfurnished,Under Construction,23,23,37,No,No,High,Yes,No,None,East,Owner,Sold
+80,Utah,Anthonybury,Doyle Mountain,Villa,3,3237,127.42,Residential,12446.06,2004,Unfurnished,Ready to Move,17,5,23,No,No,High,Yes,Yes,"Garden, Parking",West,Agent,Available
+81,Connecticut,Sparksshire,Michael Highway,Plot,2,3091,354.98,Commercial,5041.13,2013,Unfurnished,Ready to Move,20,20,12,Yes,Yes,Low,Yes,Yes,None,South,Agent,Available
+82,Tennessee,South Marcus,Daniel Port,Villa,5,1913,451.19,Residential,12280.04,1993,Unfurnished,Under Construction,17,17,38,No,Yes,High,Yes,Yes,"Gym, Pool, Garden",South,Owner,Rented
+83,North Carolina,East Joelchester,David Walks,Independent House,4,1745,280.84,Residential,4507.85,2001,Semi-Furnished,Under Construction,6,19,25,No,No,Low,No,Yes,None,East,Owner,Sold
+84,Arizona,Williamsshire,Brent Squares,Independent House,2,2607,482.97,Commercial,11570.59,1987,Furnished,Ready to Move,10,8,3,Yes,Yes,Low,Yes,No,"Gym, Pool, Garden",North,Builder,Available
+85,Delaware,Adamchester,Obrien Place,Plot,2,3900,329.0,Commercial,8373.21,1999,Unfurnished,Under Construction,24,20,28,No,Yes,High,Yes,Yes,"Garden, Parking",West,Agent,Available
+86,Nebraska,Port Jerryville,Smith Estates,Plot,4,2683,169.25,Commercial,8330.15,2016,Unfurnished,Under Construction,20,20,27,No,Yes,Medium,No,Yes,"Gym, Security",South,Owner,Rented
+87,New Jersey,North Jeffreyview,Meyer Dam,Villa,5,981,365.33,Commercial,13788.69,2005,Unfurnished,Ready to Move,14,22,8,Yes,No,Medium,Yes,Yes,"Gym, Pool, Garden",North,Owner,Sold
+88,Hawaii,South Robertfort,Adam Garden,Villa,1,1616,434.53,Residential,3582.33,2021,Semi-Furnished,Under Construction,1,28,8,No,Yes,Medium,Yes,Yes,"Garden, Parking",East,Owner,Available
+89,Vermont,West Angel,Alfred Via,Independent House,1,569,85.97,Residential,5024.5,1988,Semi-Furnished,Ready to Move,5,2,37,Yes,Yes,Medium,No,Yes,"Gym, Pool, Garden",South,Owner,Sold
+90,South Carolina,West Howardfort,Tyler Mission,Villa,2,2269,459.55,Residential,7575.31,1987,Furnished,Under Construction,11,17,38,Yes,Yes,Low,No,No,"Gym, Pool, Garden",West,Owner,Available
+91,Mississippi,West Daniel,Edward Lakes,Villa,5,2550,405.39,Commercial,14288.78,2001,Unfurnished,Ready to Move,16,21,1,No,No,Medium,Yes,No,None,West,Builder,Available
+92,Maryland,Kyletown,Eric Road,Plot,5,2795,379.24,Commercial,3156.21,1984,Furnished,Under Construction,9,10,0,No,No,High,Yes,Yes,None,South,Builder,Rented
+93,New Mexico,North Juliashire,Shaffer Locks,Apartment,3,2635,493.18,Commercial,14494.92,1994,Semi-Furnished,Ready to Move,12,4,26,No,No,High,Yes,Yes,"Gym, Security",East,Agent,Available
+94,California,Rodneyshire,Robinson Trace,Apartment,1,4246,97.09,Commercial,3035.52,2004,Semi-Furnished,Ready to Move,17,13,17,No,Yes,High,No,No,None,South,Builder,Sold
+95,Delaware,Alexandramouth,Tara Mountain,Independent House,3,4757,450.84,Residential,10485.48,1996,Semi-Furnished,Under Construction,21,9,9,No,Yes,Low,Yes,No,"Gym, Pool, Garden",South,Builder,Sold
+96,Alaska,Barajasfurt,Donald Unions,Plot,1,2140,294.38,Residential,3777.93,1984,Unfurnished,Ready to Move,14,28,37,No,Yes,Medium,No,Yes,"Garden, Parking",North,Agent,Sold
+97,Indiana,Port Michelle,Robinson Route,Villa,1,3554,455.88,Commercial,4739.5,2020,Furnished,Ready to Move,22,9,10,Yes,Yes,High,No,No,None,South,Agent,Sold
+98,Connecticut,East Angelaview,Griffin Harbor,Apartment,1,1960,285.6,Residential,12043.61,1989,Furnished,Ready to Move,24,12,34,Yes,Yes,Medium,No,No,None,South,Agent,Sold
+99,Kentucky,Lishire,Jeffrey Skyway,Apartment,1,3723,425.93,Residential,10379.44,1984,Furnished,Under Construction,22,24,39,Yes,Yes,High,No,Yes,"Gym, Security",North,Owner,Sold
+100,Nebraska,Brownchester,Mark Extensions,Villa,1,795,203.9,Residential,9332.0,2013,Semi-Furnished,Ready to Move,24,6,11,No,Yes,Medium,No,No,"Garden, Parking",West,Agent,Available
