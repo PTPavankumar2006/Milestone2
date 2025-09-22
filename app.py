@@ -61,6 +61,30 @@ except Exception:
 # Streamlit page config
 # -----------------------------
 st.set_page_config(page_title="Housing Price Prediction & Investment Bot", layout="wide")
+
+st.markdown("""
+    <style>
+    .main {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    h1, h2, h3 {
+        color: #2c3e50;
+        font-family: 'Helvetica Neue', sans-serif;
+    }
+    .stButton button {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 10px;
+        padding: 0.6em 1.2em;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
 st.title("🏠 Housing Price Prediction & Smart Investment Dashboard")
 
 # -----------------------------
@@ -279,8 +303,9 @@ lgb_dist = {
 # -----------------------------
 # Tabs for Dashboard
 # -----------------------------
-T1, T2, T3, T4, T5, T6 = st.tabs([
-    "📁 Data", "📊 EDA", "🤖 Modeling", "🧠 Importances", "💡 Investment Bot", "🧾 Predict"
+T1, T2, T3, T4, T5, T6, T7 = st.tabs([
+    "📁 Data", "📊 EDA", "🤖 Modeling", "🧠 Importances", 
+    "💡 Investment Bot", "🧾 Predict", "🎤 Voice Assistant"
 ])
 
 with T1:
@@ -527,6 +552,112 @@ with T6:
         out_path = "predictions.csv"
         out.to_csv(out_path, index=False)
         st.download_button("⬇️ Download predictions.csv", data=out.to_csv(index=False), file_name="predictions.csv")
+
+with T7:
+    st.markdown("### 🎤 AI Voice Assistant (Chat Mode)")
+    st.write("Talk to your assistant: *'What is the price of a 3BHK in Whitefield Bangalore?'*")
+
+    import speech_recognition as sr
+    import pyttsx3
+    import spacy
+    import subprocess, sys
+
+    # ✅ Auto-install spaCy model if missing
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+        nlp = spacy.load("en_core_web_sm")
+
+    recognizer = sr.Recognizer()
+    tts_engine = pyttsx3.init()
+
+    # Session state for chat history
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
+
+    # ---------------------------
+    # Function: Process Query
+    # ---------------------------
+    def process_query(query_text):
+        doc = nlp(query_text)
+
+        bhk, location = None, None
+        for ent in doc.ents:
+            if ent.label_ == "CARDINAL" and "BHK" in query_text:
+                try:
+                    bhk = int(ent.text)
+                except:
+                    pass
+            if ent.label_ in ["GPE", "LOC"]:
+                location = ent.text
+
+        # Default sample row
+        response_text = "I couldn't extract enough details to predict."
+        if model_to_use is not None:
+            sample = pd.DataFrame([{**{c: df[c].median() for c in numeric_cols},
+                                    **{c: "Unknown" for c in cat_cols}}])
+            if bhk and "BHK" in sample.columns:
+                sample["BHK"] = bhk
+            if location and "City" in sample.columns:
+                sample["City"] = location
+
+            price_pred = model_to_use.predict(sample[numeric_cols + cat_cols])[0]
+            response_text = f"The estimated price is **{price_pred:.2f} Lakhs**"
+
+            # 🔊 Speak out
+            tts_engine.say(f"The estimated price is {price_pred:.0f} lakhs")
+            tts_engine.runAndWait()
+
+        return response_text
+
+    # ---------------------------
+    # Input Section
+    # ---------------------------
+    col1, col2 = st.columns([2,1])
+    with col1:
+        user_input = st.text_input("💬 Type your query", key="chat_input")
+    with col2:
+        if st.button("🎙️ Speak"):
+            with sr.Microphone() as source:
+                st.info("Listening...")
+                audio = recognizer.listen(source, timeout=5, phrase_time_limit=10)
+            try:
+                user_input = recognizer.recognize_google(audio)
+                st.success(f"You said: {user_input}")
+            except Exception as e:
+                st.error(f"Could not recognize speech: {e}")
+                user_input = ""
+
+    # ---------------------------
+    # Generate & Display Reply
+    # ---------------------------
+    if user_input:
+        reply = process_query(user_input)
+
+        # Save in chat history
+        st.session_state.chat_history.append(("user", user_input))
+        st.session_state.chat_history.append(("assistant", reply))
+
+        # 🔹 Show latest response immediately in text
+        st.markdown(f"**Assistant:** {reply}")
+
+    # ---------------------------
+    # Display Chat History
+    # ---------------------------
+    st.markdown("### 📝 Chat History")
+    for role, msg in st.session_state.chat_history:
+        if role == "user":
+            st.markdown(
+                f"<div style='text-align:right; background:#DCF8C6; padding:10px; border-radius:10px; margin:5px;'>{msg}</div>",
+                unsafe_allow_html=True,
+            )
+        else:
+            st.markdown(
+                f"<div style='text-align:left; background:#F1F0F0; padding:10px; border-radius:10px; margin:5px;'>{msg}</div>",
+                unsafe_allow_html=True,
+            )
+
 
 # -----------------------------
 # (Optional) Recursive Feature Elimination (RFE) on numeric only
